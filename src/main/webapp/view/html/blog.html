@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/部落格/view/css/blog.css"/>
+    <title>我的部落格</title>
+</head>
+<body class="logged-out">
+<div class="page-container">
+    <div class="personal-information-card-container">
+        <div class="avatar-container">
+            <img src="/部落格/image/avatar/怪醫黑傑克.jpeg" alt="頭像" class="avatar">
+            <div class="online-status"></div>
+        </div>
+        <div class="personal-information-content-container">
+        	<h2 class="blog-name" id="BlogName">黃翊程</h2>
+	        <p class="dream" id="Dream">Dreaming of becoming a Java Web full-platform development engineer</p>
+	        <div class="introduction-container" id="IntroductionList">
+	            <p>載入中...</p>
+	        </div>
+        </div>       
+        <div class="social-links">
+            <a href="https://www.facebook.com/huang.yi.cheng.435035" target="_blank" rel="noopener noreferrer"> <!-- fb -->
+              <svg width="24px" height="24px" fill="#fff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+	        	  <path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"/>
+      		  </svg>
+            </a>
+            <a href="https://www.instagram.com/huang_yicheng1108/?__pwa=1" target="_blank" rel="noopener noreferrer"> <!-- IG -->
+              <svg width="24" height="24" fill="#fff" viewBox="0 0 24 24" transform="" id="injected-svg" xmlns="http://www.w3.org/2000/svg">
+		          <path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248m0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008M16.806 6.129a1.078 1.078 0 1 0 0 2.156 1.078 1.078 0 1 0 0-2.156"></path>
+		          <path d="M20.533 6.111A4.6 4.6 0 0 0 17.9 3.479a6.6 6.6 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.6 6.6 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.6 6.6 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71s0 2.753.056 3.71c.015.748.156 1.486.419 2.187a4.6 4.6 0 0 0 2.634 2.632 6.6 6.6 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.6 6.6 0 0 0 2.186-.419 4.61 4.61 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.6 6.6 0 0 0-.421-2.217m-1.218 9.532a5 5 0 0 1-.311 1.688 2.99 2.99 0 0 1-1.712 1.711 5 5 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a5 5 0 0 1-1.669-.311 2.99 2.99 0 0 1-1.719-1.711 5.1 5.1 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654s0-2.686.053-3.655a5 5 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5 5 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a5 5 0 0 1 1.67.311 3 3 0 0 1 1.712 1.712 5.1 5.1 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655s0 2.698-.043 3.654z"></path>
+      		  </svg>
+            </a>
+            <a href="https://www.threads.com/@huang_yicheng1108?__pwa=1" target="_blank" rel="noopener noreferrer"> <!-- Threads -->
+              <svg width="22" height="22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#fff">
+          		  <path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.057 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.964-.065-1.19.408-2.285 1.33-3.082.88-.76 2.119-1.207 3.583-1.291a13.853 13.853 0 0 1 3.02.142c-.126-.742-.375-1.332-.75-1.757-.513-.586-1.308-.883-2.359-.89h-.029c-.844 0-1.992.232-2.721 1.32L7.734 7.847c.98-1.454 2.568-2.256 4.478-2.256h.044c3.194.02 5.097 1.975 5.287 5.388.108.046.216.094.321.142 1.49.7 2.58 1.761 3.154 3.07.797 1.82.871 4.79-1.548 7.158-1.85 1.81-4.094 2.628-7.277 2.65Zm1.003-11.69c-.242 0-.487.007-.739.021-1.836.103-2.98.946-2.916 2.143.067 1.256 1.452 1.839 2.784 1.767 1.224-.065 2.818-.543 3.086-3.71a10.5 10.5 0 0 0-2.215-.221z"/>
+   			  </svg>
+            </a>
+        </div>
+        <div class="introduction-editing-container">
+        	<button type="button" id="IntroductionEditing">編輯簡介</button>
+        	<button type="button" id="LoginToggle">管理員登入</button>
+        </div>
+    </div>
+    <div class="blog-content-container">
+        <div class="blog-header">
+            <h1><i class="fa-solid fa-terminal"></i> 創作部落格</h1>
+            <p>探所前端HTML/JSP/CSS/JS、後端Servlet/MySQL和MVC架構的基礎</p>
+        </div>
+        <div class="article-publishing-area-container glass">
+            <div class="article-publishing-area-header">
+            	<i class="fa-solid fa-paper-plane"></i>
+            	<h3>發表新文章</h3>           	
+            </div>
+            <div class="article-title-container">
+                <input type="text" id="ArticleTitle" placeholder="請輸入令人驚豔的文章標題...">
+            </div>
+            <div class="article-content-container">
+                <textarea id="ArticleContent" rows="10" placeholder="今天想分享什麼技術心得呢..."></textarea>
+            </div>
+            <button id="btnPublish"><i class="fa-solid fa-bolt"></i> 發布文章</button>
+        </div>
+        <div class="all-articles-container">
+            <div class="all-articles-header">
+            	<i class="fa-solid fa-bookmark"></i>
+            	<h2>所有文章</h2>
+            </div>
+            <div id="articleList" class="article-list"></div>
+        </div>
+    </div>
+    <div class="edit-article-container" id="EditArticleModal">
+    	<div class="edit-article-modal glass">
+    		<div class="edit-article-close-window">
+    			<button type="button" id="EditArticleCloseWindow">
+    				   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" alt="btn_close" role="presentation" focusable="false" class="">
+						   <path d="M1.368.233A.8.8 0 00.235 1.367l7.1 7.095-7.099 7.094a.8.8 0 001.131 1.132l7.094-7.094 7.093 7.093a.8.8 0 001.133-1.131L9.593 8.462l7.095-7.095A.8.8 0 0015.556.236L8.463 7.33 1.368.235" fill="#f3f4f6"></path>
+				       </svg>
+    			</button>
+    		</div>
+    		<div class="edit-article-header-container">
+	    		<i class="fa-solid fa-pen-to-square"></i>
+	    		<h3>編輯文章</h3>
+	    	</div>
+	    	<div class="edit-article-content-container">	    		
+	    		<div class="edit-article-title-container">
+	    			<input type="text" id="editArticleTitle" placeholder="請輸入標題...">
+	    		</div>
+	    		<div class="edit-article-content-container">
+	    			<textarea id="editArticleContent" rows="10" placeholder="請輸入內容..."></textarea>
+	    		</div>
+	    		<div class="edit-article-actions-container">
+	    			<button type="button" id="CancelEditActions">取消</button>
+	            	<button type="button" id="SaveEditActions">保存</button>
+	    		</div>
+	    	</div> 
+    	</div>
+    </div>
+    <div class="delete-article-container" id="DeleteArticleModal">
+    	<div class="delete-article-modal glass">
+    		<div class="delete-article-content-contaner">
+    			<div class="delete-article-dicections">
+    				是否確定刪除該篇文章？
+    			</div>
+    			<div class="delete-article-actions-container">
+    				<button type="button" id="CancelDeleteActions">取消</button>
+	            	<button type="button" id="ConfirmDeleteActions">確定</button>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <div class="edit-introduction-container" id="EditIntroductionModal">
+    	<div class="edit-introduction-modal glass">
+    		<div class="edit-introduction-close-window">
+    			<button type="button" id="EditIntroductionCloseWindow">
+    				   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" alt="btn_close" role="presentation" focusable="false" class="">
+						   <path d="M1.368.233A.8.8 0 00.235 1.367l7.1 7.095-7.099 7.094a.8.8 0 001.131 1.132l7.094-7.094 7.093 7.093a.8.8 0 001.133-1.131L9.593 8.462l7.095-7.095A.8.8 0 0015.556.236L8.463 7.33 1.368.235" fill="#f3f4f6"></path>
+				       </svg>
+    			</button>
+    		</div>
+    		<div class="edit-introduction-header-container">
+    			<i class="fa-solid fa-user-pen"></i>
+    			<h3>編輯個人簡介</h3>
+    		</div>
+    		<div class="edit-introduction-content-container">
+    			<div class="edit-introduction-title-container">
+    				<input type="text" name="name" id="EditName" placeholder="請輸入要修改的姓名是...">
+    			</div>
+    			<div class="edit-introduction-subtitle-container">
+    				<input type="text" name="dream" id="EditDream" placeholder="請輸入自己的夢想是...">
+    			</div>
+    			<div class="edit-introduction-main-container">
+    				<textarea id="EditIntroductionText" rows="10" placeholder="請輸入簡介，如果輸入當中換行每一行會自動變成一個段落"></textarea>
+    			</div>
+    			<div class="edit-introduction-actions-container">
+    				<button type="button" id="CancelIntroductionEditActions">取消</button>
+	            	<button type="button" id="SaveIntroductionEditActions">保存</button>
+    			</div>
+    		</div>
+    	</div>
+    </div>    
+	<div class="message-container" id="MessageModal"> <!-- 通用訊息提示彈窗 -->
+	    <div class="message-modal glass">
+	        <div class="message-content">
+	            <i class="fa-solid fa-circle-exclamation message-icon" id="MessageIcon"></i>
+	            <p id="MessageText">提示文字</p>
+	        </div>
+	        <div class="message-actions">
+	            <button type="button" id="ConfirmMessageActions">確定</button>
+	        </div>
+	    </div>
+	</div>
+	<div class="administrator-login-container" id="LoginModal">
+		<div class="administrator-login-modal glass">
+			<div class="administrator-login-close-window">
+    			<button type="button" id="AdministratorLoginCloseWindow">
+    				   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" alt="btn_close" role="presentation" focusable="false" class="">
+						   <path d="M1.368.233A.8.8 0 00.235 1.367l7.1 7.095-7.099 7.094a.8.8 0 001.131 1.132l7.094-7.094 7.093 7.093a.8.8 0 001.133-1.131L9.593 8.462l7.095-7.095A.8.8 0 0015.556.236L8.463 7.33 1.368.235" fill="#f3f4f6"></path>
+				       </svg>
+    			</button>
+    		</div>
+			<div class="administrator-login-header-container">
+				<i class="fa-solid fa-lock"></i>
+            	<h3>管理員登入</h3>
+			</div>
+			<div class="administrator-login-content-container">
+				<div class="administrator-login-account-container">
+					<input type="text" id="LoginAccount" placeholder="請輸入帳號..." required>
+				</div>
+				<div class="administrator-login-password-container">
+					<input type="password" id="LoginPassword" placeholder="請輸入密碼..." required>
+				</div>
+				<div class="administrator-login-actions-container">
+                	<button type="button" id="SubmitLogin">登入</button>
+            	</div>				
+			</div>
+		</div>
+	</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.6/purify.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="/部落格/view/js/author.js"></script>
+<script src="/部落格/view/js/personal_informationCRUD.js"></script>
+<script src="/部落格/view/js/articleCRUD.js"></script>
+<script src="/部落格/view/js/blog.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+# 忽略編譯產生的檔案
+build/
+bin/
+target/
+out/
+
+# 忽略 IDE 設定檔（Eclipse / IntelliJ IDEA）
+.settings/
+.classpath
+.project
+.idea/
+*.iml
+
+# 系統檔案
+.DS_Store
+Thumbs.db
